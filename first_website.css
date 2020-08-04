@@ -1,0 +1,226 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: fantasy;
+}
+
+header{
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+body{
+    border : 7px solid mediumpurple; 
+}
+.main ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+     
+    
+}
+
+.main ul li{
+    display: inline-block;
+}
+
+.main ul li a {
+    text-decoration: none;
+    color: mediumpurple;
+    padding: 5px 20px;
+    border: 1px solid plum;
+    transition: 0.6s ease;  
+}
+.main ul li a:hover{
+    background-color: white;
+    color:black;
+}
+.main ul li.active a{
+    background-color: white;
+    color:black;
+}
+    
+
+.logo img{
+    margin-top: 25px;
+    float: left;
+    width: 150px;
+    height:auto;
+}
+.main{
+    max-width: 1200px;
+    margin:auto;
+}
+.title{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+.title h1{
+    color:white;
+    font-size: 80px;
+    background-size: cover;
+}
+.title h4{
+    color:plum;
+    text-align: center;
+    font-size: 25px;
+}
+
+
+#home table, th,td{
+    padding: 10px;
+    border-spacing: auto;
+    border-color:purple;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+#home img{
+    width: 800px;
+    height: auto; 
+}
+#home .intro-pic img{
+    width: 400px;
+    height: auto;
+    padding: 6px;
+}
+
+#home .Gang img{
+    width: 400px;
+    height: auto;
+}
+
+main{
+   background-position: center;
+    background-color: black;
+}
+ h2{
+    
+    color: mediumpurple;
+    font-size: 50px;
+     text-align: center;
+    
+}
+p{
+    color:plum;
+    font-size:30px;
+    text-align: center;
+}
+
+h3{
+    color:purple;
+    font-size: 33px;
+    text-align: center;
+}
+
+#about .Me img{
+    width: 350px;
+    height: auto;
+}
+#about .images img{
+    width: 400px;
+    height: auto;
+    padding: 7.2px;
+    margin: auto;
+    border-spacing: auto;
+}
+
+
+#anime ul{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+        
+}
+#anime .images img{
+    height: auto;
+    width: 410px;
+    padding: 2px;
+}
+#anime .protagonist img{
+    height: auto;
+    width: 107px;
+}
+table, td, tr{
+    padding: 10px;
+    border-spacing: auto;
+    border-color:purple;
+    font-size: 30px;
+    color: white;
+    margin: auto;
+}
+
+img{
+    height: auto;
+    width: 500px;
+    text-align: right;
+}
+
+figcaption {
+    color:white;
+    text-align: center;
+    font-size: 30px;
+}
+.images figure{
+    height: auto;
+    width:auto;
+}
+
+#footer{
+    background: purple;
+    color: white;
+    height:400px;
+    position: relative;
+}
+
+#footer .footer-content{
+    display:flex;
+    height: 350px;
+    
+}
+
+#footer .footer-content .footer-section{
+    flex: 1;
+    padding: 25px;
+}
+#footer .footer-section h1{
+    font-size: 35px;
+    text-align: center;
+}
+#footer .footer-section p{
+    font-size: 25px;
+}
+#footer .footer-section .contact p{
+    color: white;
+}
+#footer .footer-section .social img{
+    height: auto;
+    width: 70px;
+    padding: 10px;
+}
+#footer .links h2{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+}
+#footer .links ul{
+    font-size: 30px;
+    color: white;
+}
+#footer .footer-bottom{
+    background: plum;
+    color: rebeccapurple;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+}
